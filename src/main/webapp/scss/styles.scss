@@ -1,0 +1,17 @@
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap for Sass
+@import "bootstrap";
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+label.media-body {
+  font-weight: normal;
+}
